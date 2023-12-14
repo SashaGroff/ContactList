@@ -9,14 +9,14 @@ import UIKit
 
 class ContactListViewController: UITableViewController {
     
-    var persons: [Person]!
+    private var persons = Person.getContactList()
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let indexPath = tableView.indexPathForSelectedRow else { return }
         let personInfoVC = segue.destination as? PersonInfoViewController
         personInfoVC?.person = persons[indexPath.row]
-                
     }
+
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         persons.count

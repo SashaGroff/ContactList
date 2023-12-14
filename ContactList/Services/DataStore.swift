@@ -7,8 +7,6 @@
 
 final class DataStore {
     
-    static let share = DataStore()
-    
     let names = [
         "Aleksandr",
         "Rustam",

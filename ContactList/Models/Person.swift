@@ -16,13 +16,13 @@ struct Person {
     }
     
     static func getContactList() -> [Person] {
+        let dataStore = DataStore()
         var persons: [Person] = []
-        let dataStore = DataStore.share
         
-        let names = dataStore.names
-        let surnames = dataStore.surnames
-        let phoneNumbers = dataStore.phoneNumbers
-        let emails = dataStore.emails
+        let names = dataStore.names.shuffled()
+        let surnames = dataStore.surnames.shuffled()
+        let phoneNumbers = dataStore.phoneNumbers.shuffled()
+        let emails = dataStore.emails.shuffled()
         
         let dataCount = min(
             names.count,
@@ -31,17 +31,17 @@ struct Person {
             emails.count
         )
         
-        for index in 0...dataCount {
+        for index in 0..<dataCount {
             let person = Person(
                 name: names[index],
                 surname: surnames[index],
                 phoneNumber: phoneNumbers[index],
                 email: emails[index]
             )
-            
             persons.append(person)
         }
         
         return persons
+     
     }
 }
