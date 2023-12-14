@@ -9,6 +9,7 @@ import UIKit
 
 class PersonInfoViewController: UIViewController {
     
+    // MARK: -
     @IBOutlet var phoneNumberLabel: UILabel!
     @IBOutlet var emailLabel: UILabel!
     
