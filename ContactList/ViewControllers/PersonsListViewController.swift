@@ -9,8 +9,10 @@ import UIKit
 
 class PersonsListViewController: UITableViewController {
     
-    var persons = Person.getContactList()
+    // MARK: - Public Properties
+    var persons: [Person]!
     
+    // MARK: - UITableViewDataSource
     override func numberOfSections(in tableView: UITableView) -> Int {
         persons.count
     }

@@ -10,7 +10,7 @@ import UIKit
 class ContactListViewController: UITableViewController {
     
     // MARK: - Private Properties
-    var persons = Person.getContactList()
+    var persons: [Person]!
     
     // MARK: - Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -35,7 +35,4 @@ class ContactListViewController: UITableViewController {
         
         return personCell
     }
-    
-    
-    
 }

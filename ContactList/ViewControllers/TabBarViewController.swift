@@ -9,14 +9,10 @@ import UIKit
 
 class TabBarViewController: UITabBarController {
     
+    // MARK: - Public Properties
     var persons = Person.getContactList()
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        
-    }
-    
+    // MARK: - Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let viewControllers else { return }
         
