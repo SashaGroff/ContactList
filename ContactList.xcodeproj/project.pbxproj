@@ -16,6 +16,8 @@
 		6B1035B42B2B2F42000F0BB3 /* PersonInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1035B32B2B2F41000F0BB3 /* PersonInfoViewController.swift */; };
 		6B1035B92B2B2F95000F0BB3 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1035B82B2B2F95000F0BB3 /* Person.swift */; };
 		6B1035BC2B2B2FCF000F0BB3 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1035BB2B2B2FCF000F0BB3 /* DataStore.swift */; };
+		6B1035BF2B2B7B12000F0BB3 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1035BE2B2B7B12000F0BB3 /* TabBarViewController.swift */; };
+		6B1035C12B2C48BD000F0BB3 /* PersonsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1035C02B2C48BD000F0BB3 /* PersonsListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		6B1035B32B2B2F41000F0BB3 /* PersonInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInfoViewController.swift; sourceTree = "<group>"; };
 		6B1035B82B2B2F95000F0BB3 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		6B1035BB2B2B2FCF000F0BB3 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		6B1035BE2B2B7B12000F0BB3 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		6B1035C02B2C48BD000F0BB3 /* PersonsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +135,8 @@
 			children = (
 				6B1035B12B2B2F29000F0BB3 /* ContactListViewController.swift */,
 				6B1035B32B2B2F41000F0BB3 /* PersonInfoViewController.swift */,
+				6B1035C02B2C48BD000F0BB3 /* PersonsListViewController.swift */,
+				6B1035BE2B2B7B12000F0BB3 /* TabBarViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -286,8 +292,10 @@
 				6B1035BC2B2B2FCF000F0BB3 /* DataStore.swift in Sources */,
 				6B1035822B2B2C1D000F0BB3 /* AppDelegate.swift in Sources */,
 				6B1035842B2B2C1D000F0BB3 /* SceneDelegate.swift in Sources */,
+				6B1035BF2B2B7B12000F0BB3 /* TabBarViewController.swift in Sources */,
 				6B1035B22B2B2F29000F0BB3 /* ContactListViewController.swift in Sources */,
 				6B1035B42B2B2F42000F0BB3 /* PersonInfoViewController.swift in Sources */,
+				6B1035C12B2C48BD000F0BB3 /* PersonsListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

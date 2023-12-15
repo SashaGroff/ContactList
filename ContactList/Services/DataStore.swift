@@ -26,7 +26,7 @@ final class DataStore {
         "Clarkson",
         "Lindemann",
         "Reus",
-        "Cooper",
+        "Hummond",
         "Holmes",
         "Vaananen",
         "Conte",

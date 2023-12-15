@@ -9,12 +9,14 @@ import UIKit
 
 class PersonInfoViewController: UIViewController {
     
-    // MARK: -
+    // MARK: - IB Outlets
     @IBOutlet var phoneNumberLabel: UILabel!
     @IBOutlet var emailLabel: UILabel!
     
+    // MARK: - Public Properties
     var person: Person!
     
+    // MARK: - View Life Cycles
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.title = person.fullName
