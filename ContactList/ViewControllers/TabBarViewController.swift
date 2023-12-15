@@ -11,9 +11,11 @@ class TabBarViewController: UITabBarController {
     
     // MARK: - Public Properties
     var persons = Person.getContactList()
-
-    // MARK: - Navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    
+    // MARK: - View Life Cycles
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
         guard let viewControllers else { return }
         
         for viewController in viewControllers {

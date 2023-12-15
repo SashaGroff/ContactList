@@ -28,6 +28,7 @@ class ContactListViewController: UITableViewController {
         let personCell = tableView.dequeueReusableCell(withIdentifier: "personCell", for: indexPath)
         
         let person = persons[indexPath.row]
+        
         var content = personCell.defaultContentConfiguration()
         content.text = person.fullName
         
