@@ -35,9 +35,9 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="irp-jn-ziW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1578" y="512"/>
+            <point key="canvasLocation" x="1566" y="737"/>
         </scene>
-        <!--Contact List View Controller-->
+        <!--Contact List-->
         <scene sceneID="EGs-ra-lZc">
             <objects>
                 <tableViewController id="Nsm-fO-axv" customClass="ContactListViewController" customModule="ContactList" customModuleProvider="target" sceneMemberID="viewController">
@@ -64,11 +64,11 @@
                         </connections>
                     </tableView>
                     <tabBarItem key="tabBarItem" systemItem="contacts" id="kEQ-CZ-rU8"/>
-                    <navigationItem key="navigationItem" id="cDd-yu-yUo"/>
+                    <navigationItem key="navigationItem" title="Contact List" id="cDd-yu-yUo"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ag8-lA-19V" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1578" y="-137"/>
+            <point key="canvasLocation" x="1567" y="1"/>
         </scene>
         <!--Person Info View Controller-->
         <scene sceneID="ea9-d7-bDp">
@@ -79,7 +79,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="LA3-es-b4E">
-                                <rect key="frame" x="16" y="123" width="361" height="56"/>
+                                <rect key="frame" x="16" y="175" width="361" height="56"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wd3-uI-EcS">
                                         <rect key="frame" x="0.0" y="0.0" width="361" height="24"/>
@@ -112,15 +112,15 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="idI-qh-22i" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2302" y="-136"/>
+            <point key="canvasLocation" x="2445" y="1"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="bpT-sb-Vhd">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lvb-i5-eaz" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="JLb-lw-Ovx">
-                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="JLb-lw-Ovx">
+                        <rect key="frame" x="0.0" y="59" width="393" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -132,12 +132,12 @@
             </objects>
             <point key="canvasLocation" x="29.770992366412212" y="1.4084507042253522"/>
         </scene>
-        <!--Tab Bar View Controller-->
+        <!--Contact List-->
         <scene sceneID="382-qS-L1r">
             <objects>
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="FQt-VX-8gQ" customClass="TabBarViewController" customModule="ContactList" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" id="XOV-tK-res"/>
+                    <navigationItem key="navigationItem" title="Contact List" id="XOV-tK-res"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="jqi-cK-Ac9">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
