@@ -101,12 +101,12 @@
 		6B1035802B2B2C1D000F0BB3 /* ContactList */ = {
 			isa = PBXGroup;
 			children = (
-				6B1035B52B2B2F51000F0BB3 /* App */,
-				6B1035B62B2B2F63000F0BB3 /* Storyboards */,
 				6B1035B72B2B2F71000F0BB3 /* ViewControllers */,
 				6B1035BA2B2B2FB4000F0BB3 /* Models */,
-				6B10358A2B2B2C22000F0BB3 /* Assets.xcassets */,
 				6B1035BD2B2B2FD4000F0BB3 /* Services */,
+				6B1035B62B2B2F63000F0BB3 /* Storyboards */,
+				6B1035B52B2B2F51000F0BB3 /* App */,
+				6B10358A2B2B2C22000F0BB3 /* Assets.xcassets */,
 			);
 			path = ContactList;
 			sourceTree = "<group>";

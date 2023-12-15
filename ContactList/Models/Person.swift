@@ -42,6 +42,5 @@ struct Person {
         }
         
         return persons
-     
     }
 }

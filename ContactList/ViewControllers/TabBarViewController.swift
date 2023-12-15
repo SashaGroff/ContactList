@@ -10,7 +10,7 @@ import UIKit
 class TabBarViewController: UITabBarController {
     
     // MARK: - Public Properties
-    var persons = Person.getContactList()
+    let persons = Person.getContactList()
     
     // MARK: - View Life Cycles
     override func viewDidLoad() {
