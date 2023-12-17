@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ContactListViewController: UITableViewController {
+final class ContactListViewController: UITableViewController {
     
     // MARK: - Private Properties
     var persons: [Person]!
@@ -26,12 +26,10 @@ class ContactListViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let personCell = tableView.dequeueReusableCell(withIdentifier: "personCell", for: indexPath)
-        
         let person = persons[indexPath.row]
-        
         var content = personCell.defaultContentConfiguration()
-        content.text = person.fullName
         
+        content.text = person.fullName
         personCell.contentConfiguration = content
         
         return personCell

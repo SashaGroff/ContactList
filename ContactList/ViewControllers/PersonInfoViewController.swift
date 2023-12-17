@@ -7,7 +7,7 @@
 
 import UIKit
 
-class PersonInfoViewController: UIViewController {
+final class PersonInfoViewController: UIViewController {
     
     // MARK: - IB Outlets
     @IBOutlet var phoneNumberLabel: UILabel!
@@ -19,7 +19,7 @@ class PersonInfoViewController: UIViewController {
     // MARK: - View Life Cycles
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.title = person.fullName
+        title = person.fullName
         phoneNumberLabel.text = "Phone: \(person.phoneNumber)"
         emailLabel.text = "Email: \(person.email)"
     }
